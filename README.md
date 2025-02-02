@@ -1,0 +1,2 @@
+# PHP Loose Typing Bug
+This repository demonstrates a common error in PHP: unexpected results from arithmetic operations when dealing with mixed data types. The `bug.php` file contains code that attempts to calculate the sum of an array containing numbers and a string. The loose typing nature of PHP leads to type juggling, resulting in an incorrect sum. The `bugSolution.php` file offers a solution by implementing type checking before performing the addition.
